@@ -1,0 +1,4 @@
+node_modules/
+login_credential.js
+index.js.old
+*.swp
