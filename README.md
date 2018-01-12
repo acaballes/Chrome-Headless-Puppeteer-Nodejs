@@ -32,6 +32,7 @@ run "nodejs index.js"
 Login to facebook site
 People search - in my example I set 'kevin' as the keywork search
 Take a webpage screenshot
+Scrape people search results Fullnames
 ```
 
 ## Tips
