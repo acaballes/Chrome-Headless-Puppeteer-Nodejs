@@ -18,7 +18,7 @@ git clone https://github.com/acaballes/Chrome-Headless-Puppeteer-Nodejs.git
 cd to/your/cloned/folder/path
 vi login_credential.js OR nano login_credential.js
 
-Paste the code and fill in your facebook login credential:
+Paste the code and fill in your facebook login credential andd save it:
     module.exports = {
         username: '',
         password: ''
@@ -36,7 +36,7 @@ Take a webpage screenshot
 
 ## Tips
 
-I set the option 'headless' to 'false' just for visual debugging. You can make it to 'true' but any additional option will be required depends on the website you accessed.
+I set the option 'headless' to 'false' just for visual debugging. You can make it to 'true' but there may be additional option will be required depends on the website you access.
 ```
     const browser = await puppeteer.launch({
         headless: false //set to false for visual debugging
